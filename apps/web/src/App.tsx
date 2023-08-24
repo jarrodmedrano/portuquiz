@@ -1,6 +1,7 @@
-import React from "react";
-import { Link } from "ui";
-import "./App.css";
+import React from 'react';
+import { Link } from 'ui';
+import 'ui/styles.css';
+import './App.css';
 
 function App() {
   return (
