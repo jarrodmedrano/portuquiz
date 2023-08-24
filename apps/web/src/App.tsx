@@ -1,26 +1,31 @@
 import React from 'react';
-import { Link } from 'ui';
-import 'ui/styles.css';
 import './App.css';
+import Quiz, { Answer } from './Quiz';
+
+export interface Question {
+  text: string;
+  answers: Answer[];
+}
 
 function App() {
+  const questions: Question[] = [
+    {
+      text: 'What is the capital of France?',
+      answers: [
+        { id: 'a1', text: 'Paris', isCorrect: true },
+        { id: 'a2', text: 'London', isCorrect: false },
+        { id: 'a3', text: 'Berlin', isCorrect: false },
+        { id: 'a4', text: 'Madrid', isCorrect: false },
+      ],
+    },
+  ];
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1 className="header">
-          Web
-          <div className="Turborepo">Turborepo Example</div>
-        </h1>
-        <div>
-          <Link className="App-link" href="https://turbo.build/repo">
-            Turborepo Docs
-          </Link>
-          <span> | </span>
-          <Link className="App-link" href="https://reactjs.org">
-            React Docs
-          </Link>
-        </div>
-      </header>
+    <div className="flex h-screen">
+      <div className="m-auto max-w-md text-center rounded border px-10 py-10 w-full">
+        <h1 className="text-3xl font-bold underline">PortuQuiz</h1>
+        <Quiz questions={questions} />
+      </div>
     </div>
   );
 }
