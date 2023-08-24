@@ -45,7 +45,7 @@ const Quiz = ({ questions }: { questions: Question[] }) => {
         ))}
       </div>
 
-      {selectedAnswer && (
+      {selectedAnswer?.id && question.answers.find((a) => a.id === selectedAnswer.id && a.isCorrect) && (
         <footer className="fixed bottom-0 left-0 right-0 bg-white p-4">
           {selectedAnswer && (
             <div className="max-w-md mx-auto">
