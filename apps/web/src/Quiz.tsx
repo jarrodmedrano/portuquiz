@@ -8,7 +8,8 @@ export interface Answer {
 }
 
 const Quiz = ({ questions }: { questions: Question[] }) => {
-  const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [currentQuestion, setCurrentQuestion] = useState(questions[0]);
+  const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<Answer | null>(null);
   const [shuffledAnswers, setShuffled] = useState<Answer[]>([]);
 
@@ -18,33 +19,43 @@ const Quiz = ({ questions }: { questions: Question[] }) => {
 
   function handleNextClick() {
     setSelectedAnswer(null);
-    setCurrentQuestion(currentQuestion + 1);
+    setCurrentIndex(currentIndex + 1);
   }
 
   function handlePrevClick() {
     setSelectedAnswer(null);
-    setCurrentQuestion(currentQuestion - 1);
+    setCurrentIndex(currentIndex - 1);
   }
 
-  const question = questions[currentQuestion];
+  useEffect(() => {
+    setCurrentQuestion(questions[currentIndex]);
+  }, [currentIndex, questions]);
 
   useEffect(() => {
-    const answers = question.answers;
-    let shuffled = [...answers];
-    for (let i = answers.length - 1; i > 0; i--) {
-      let j = Math.floor(Math.random() * (i + 1));
-      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    if (currentQuestion) {
+      const answers = currentQuestion.answers;
+      let shuffled = [...answers];
+      for (let i = answers.length - 1; i > 0; i--) {
+        let j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
+      setShuffled(shuffled);
     }
-    setShuffled(shuffled);
-  }, [question]);
+  }, [currentQuestion]);
 
   useEffect(() => {
-    setCurrentQuestion(0);
+    setCurrentIndex(0);
   }, [questions]);
 
   return (
     <div>
-      <div className="font-bold text-lg mb-4 mt-4">{question.text}</div>
+      {currentQuestion && (
+        <div>
+          {currentQuestion.tense}, {currentQuestion.regularity},{" "}
+          {currentQuestion.verbType} verb
+        </div>
+      )}
+      <div className="font-bold text-lg mb-4 mt-4">{currentQuestion?.text}</div>
 
       <div className="space-y-2">
         {shuffledAnswers.map((answer: Answer) => (
@@ -67,7 +78,7 @@ const Quiz = ({ questions }: { questions: Question[] }) => {
         <footer className=" bottom-0 left-0 right-0 bg-white p-4">
           {
             <div className="mx-auto flex justify-between">
-              {currentQuestion !== 0 && (
+              {currentIndex !== 0 && (
                 <button
                   className="bg-blue-500  hover:bg-blue-600 text-white px-4 py-2 rounded"
                   onClick={handlePrevClick}
@@ -80,10 +91,10 @@ const Quiz = ({ questions }: { questions: Question[] }) => {
                 onClick={handleNextClick}
                 disabled={
                   !selectedAnswer ||
-                  !question.answers.find(
+                  !currentQuestion?.answers.find(
                     (a) => a.id === selectedAnswer?.id && a.isCorrect
                   ) ||
-                  currentQuestion === questions.length - 1
+                  currentIndex === questions.length - 1
                 }
               >
                 Next Question

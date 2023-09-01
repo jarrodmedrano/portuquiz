@@ -105,7 +105,7 @@ const Navbar = ({
                 <button
                   className="bg-green-500 hover:bg-green-600 px-3 py-2 mr-2 text-sm text-white rounded"
                   onClick={handleClick}
-                  value="futoro-do-presente"
+                  value="futuro-do-presente"
                 >
                   Futuro do Presente
                 </button>
