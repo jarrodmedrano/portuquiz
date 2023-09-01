@@ -389,6 +389,71 @@
         { "id": "a3", "text": "viriam", "isCorrect": false },
         { "id": "a4", "text": "vieram", "isCorrect": false }
       ]
+    },
+    {
+      "tense": "futuro-do-presente",
+      "regularity": "regular",
+      "verbType": "ar",
+      "text": "Eles ________ o jogo.",
+      "translation": "They will win the game.",
+      "answers": [
+        { "id": "a1", "text": "ganharão", "isCorrect": true },
+        { "id": "a2", "text": "ganham", "isCorrect": false },
+        { "id": "a3", "text": "ganhar", "isCorrect": false },
+        { "id": "a4", "text": "ganhasse", "isCorrect": false }
+      ]
+    },
+    {
+      "tense": "presente",
+      "regularity": "regular",
+      "verbType": "er",
+      "text": "Eu ________ bem.",
+      "translation": "I understand well.",
+      "answers": [
+        { "id": "a1", "text": "entendo", "isCorrect": true },
+        { "id": "a2", "text": "entenderei", "isCorrect": false },
+        { "id": "a3", "text": "entendia", "isCorrect": false },
+        { "id": "a4", "text": "entenderia", "isCorrect": false }
+      ]
+    },
+    {
+      "tense": "preterito-perfeito",
+      "regularity": "irregular",
+      "verbType": "ir",
+      "text": "Você ________ o carro.",
+      "translation": "You had the car.",
+      "answers": [
+        { "id": "a1", "text": "teve", "isCorrect": true },
+        { "id": "a2", "text": "teria", "isCorrect": false },
+        { "id": "a3", "text": "tem", "isCorrect": false },
+        { "id": "a4", "text": "tinha", "isCorrect": false }
+      ]
+    },
+    {
+      "tense": "presente-progressivo",
+      "regularity": "regular",
+      "verbType": "ar",
+      "text": "Nós ________ cantando.",
+      "translation": "We are singing.",
+      "answers": [
+        { "id": "a1", "text": "estamos", "isCorrect": true },
+        { "id": "a2", "text": "éramos", "isCorrect": false },
+        { "id": "a3", "text": "seríamos", "isCorrect": false },
+        { "id": "a4", "text": "somos", "isCorrect": false }
+      ]
+    },
+    {
+      "tense": "futuro-do-preterito",
+      "regularity": "irregular",
+      "verbType": "ir",
+      "text": "Eu ________ a verdade.",
+      "translation": "I would say the truth.",
+      "answers": [
+        { "id": "a1", "text": "diria", "isCorrect": true },
+        { "id": "a2", "text": "diz", "isCorrect": false },
+        { "id": "a3", "text": "disse", "isCorrect": false },
+        { "id": "a4", "text": "dizer", "isCorrect": false }
+      ]
     }
   ]
 }

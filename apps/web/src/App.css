@@ -12,3 +12,7 @@ button:disabled {
 button:disabled:hover {
   @apply bg-white;
 }
+
+button:hover + .tooltip {
+  visibility: visible;
+}

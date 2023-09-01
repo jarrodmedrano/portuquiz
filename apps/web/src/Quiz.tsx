@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Question } from "./App";
+import HintButton from "./Hint";
 
 export interface Answer {
   id: string;
@@ -53,6 +54,7 @@ const Quiz = ({ questions }: { questions: Question[] }) => {
         <div>
           {currentQuestion.tense}, {currentQuestion.regularity},{" "}
           {currentQuestion.verbType} verb
+          <HintButton hint={currentQuestion.translation} />
         </div>
       )}
       <div className="font-bold text-lg mb-4 mt-4">{currentQuestion?.text}</div>
