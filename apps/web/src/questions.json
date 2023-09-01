@@ -259,6 +259,136 @@
         { "id": "a3", "text": "ligava", "isCorrect": false },
         { "id": "a4", "text": "liguei", "isCorrect": false }
       ]
+    },
+    {
+      "tense": "presente-progressivo",
+      "regularity": "regular",
+      "verbType": "ar",
+      "text": "Eu ________ o texto agora.",
+      "translation": "I am reading the text now.",
+      "answers": [
+        { "id": "a1", "text": "estou lendo", "isCorrect": true },
+        { "id": "a2", "text": "li", "isCorrect": false },
+        { "id": "a3", "text": "leria", "isCorrect": false },
+        { "id": "a4", "text": "leio", "isCorrect": false }
+      ]
+    },
+    {
+      "tense": "futuro-do-preterito",
+      "regularity": "regular",
+      "verbType": "er",
+      "text": "Você ________ se soubesse.",
+      "translation": "You would eat if you knew.",
+      "answers": [
+        { "id": "a1", "text": "comeria", "isCorrect": true },
+        { "id": "a2", "text": "come", "isCorrect": false },
+        { "id": "a3", "text": "comem", "isCorrect": false },
+        { "id": "a4", "text": "comia", "isCorrect": false }
+      ]
+    },
+    {
+      "tense": "presente",
+      "regularity": "irregular",
+      "verbType": "ir",
+      "text": "Ele ________ muito bem.",
+      "translation": "He feels very well.",
+      "answers": [
+        { "id": "a1", "text": "sente", "isCorrect": true },
+        { "id": "a2", "text": "sentiria", "isCorrect": false },
+        { "id": "a3", "text": "sentiu", "isCorrect": false },
+        { "id": "a4", "text": "sentir", "isCorrect": false }
+      ]
+    },
+    {
+      "tense": "preterito-perfeito",
+      "regularity": "regular",
+      "verbType": "ar",
+      "text": "Nós ________ a verdade.",
+      "translation": "We discovered the truth.",
+      "answers": [
+        { "id": "a1", "text": "descobrimos", "isCorrect": true },
+        { "id": "a2", "text": "descobriríamos", "isCorrect": false },
+        { "id": "a3", "text": "descobríamos", "isCorrect": false },
+        { "id": "a4", "text": "descobremos", "isCorrect": false }
+      ]
+    },
+    {
+      "tense": "futuro-do-presente",
+      "regularity": "regular",
+      "verbType": "ir",
+      "text": "Ela ________ a resposta em breve.",
+      "translation": "She will choose the answer soon.",
+      "answers": [
+        { "id": "a1", "text": "escolherá", "isCorrect": true },
+        { "id": "a2", "text": "escolheu", "isCorrect": false },
+        { "id": "a3", "text": "escolhia", "isCorrect": false },
+        { "id": "a4", "text": "escolhe", "isCorrect": false }
+      ]
+    },
+    {
+      "tense": "presente-progressivo",
+      "regularity": "regular",
+      "verbType": "er",
+      "text": "Nós ________ para a festa.",
+      "translation": "We are running to the party.",
+      "answers": [
+        { "id": "a1", "text": "estamos correndo", "isCorrect": true },
+        { "id": "a2", "text": "corremos", "isCorrect": false },
+        { "id": "a3", "text": "correríamos", "isCorrect": false },
+        { "id": "a4", "text": "corri", "isCorrect": false }
+      ]
+    },
+    {
+      "tense": "futuro-do-preterito",
+      "regularity": "irregular",
+      "verbType": "ir",
+      "text": "Eles ________ se pudessem.",
+      "translation": "They would go if they could.",
+      "answers": [
+        { "id": "a1", "text": "iriam", "isCorrect": true },
+        { "id": "a2", "text": "foram", "isCorrect": false },
+        { "id": "a3", "text": "vão", "isCorrect": false },
+        { "id": "a4", "text": "indo", "isCorrect": false }
+      ]
+    },
+    {
+      "tense": "presente",
+      "regularity": "regular",
+      "verbType": "ar",
+      "text": "Você ________ muito bem.",
+      "translation": "You dance very well.",
+      "answers": [
+        { "id": "a1", "text": "dança", "isCorrect": true },
+        { "id": "a2", "text": "dançaria", "isCorrect": false },
+        { "id": "a3", "text": "dançou", "isCorrect": false },
+        { "id": "a4", "text": "dançavam", "isCorrect": false }
+      ]
+    },
+    {
+      "tense": "preterito-perfeito",
+      "regularity": "regular",
+      "verbType": "er",
+      "text": "Eu ________ o contrato.",
+      "translation": "I read the contract.",
+      "answers": [
+        { "id": "a1", "text": "li", "isCorrect": true },
+        { "id": "a2", "text": "leria", "isCorrect": false },
+        { "id": "a3", "text": "lê", "isCorrect": false },
+        { "id": "a4", "text": "lendo", "isCorrect": false }
+      ]
+    },
+    {
+      "tense": "presente-progressivo",
+      "regularity": "irregular",
+      "verbType": "ir",
+      "text": "Eles ________.",
+      "translation": "They are coming.",
+      "answers": [
+        { "id": "a1", "text": "estão vindo", "isCorrect": true },
+        { "id": "a2", "text": "vêm", "isCorrect": false },
+        { "id": "a3", "text": "viriam", "isCorrect": false },
+        { "id": "a4", "text": "vieram", "isCorrect": false }
+      ]
     }
   ]
 }

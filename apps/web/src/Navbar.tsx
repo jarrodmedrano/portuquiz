@@ -24,7 +24,7 @@ const Navbar = ({
             <div className="hidden md:block">
               <div className="ml-10 flex items-center space-x-4">
                 <button
-                  className="bg-blue-500 hover:bg-blue-600 px-3 py-2 mr-2 text-sm text-white rounded"
+                  className="bg-blue-500 hover:bg-blue-600 px-3 py-2 mr-2 text-xs text-white rounded"
                   onClick={handleClick}
                   value="shuffle"
                 >
@@ -61,53 +61,74 @@ const Navbar = ({
                   </svg>
                 </button>
                 <button
-                  className="bg-blue-500 hover:bg-blue-600 px-3 py-2 mr-2 text-sm text-white rounded"
+                  className="bg-blue-500 hover:bg-blue-600 px-3 py-2 mr-2 text-xs text-white rounded"
                   onClick={handleClick}
                   value="ar"
                 >
                   AR
                 </button>
                 <button
-                  className="bg-blue-500 hover:bg-blue-600 px-3 py-2 mr-2 text-sm text-white rounded"
+                  className="bg-blue-500 hover:bg-blue-600 px-3 py-2 mr-2 text-xs text-white rounded"
                   onClick={handleClick}
                   value="ir"
                 >
                   IR
                 </button>
                 <button
-                  className="bg-blue-500 hover:bg-blue-600 px-3 py-2 mr-2 text-sm text-white rounded"
+                  className="bg-blue-500 hover:bg-blue-600 px-3 py-2 mr-2 text-xs text-white rounded"
                   onClick={handleClick}
                   value="er"
                 >
                   ER
                 </button>
                 <button
-                  className="bg-green-500 hover:bg-green-600 px-3 py-2 mr-2 text-sm text-white rounded"
+                  className="bg-green-500 hover:bg-green-600 px-3 py-2 mr-2 text-xs text-white rounded"
                   onClick={handleClick}
                   value="presente"
                 >
                   Presente
                 </button>
                 <button
-                  className="bg-green-500 hover:bg-green-600 px-3 py-2 mr-2 text-sm text-white rounded"
+                  className="bg-green-500 hover:bg-green-600 px-3 py-2 mr-2 text-xs text-white rounded"
                   onClick={handleClick}
                   value="preterito-perfeito"
                 >
                   Pretérito Perfeito
                 </button>
                 <button
-                  className="bg-green-500 hover:bg-green-600 px-3 py-2 mr-2 text-sm text-white rounded"
+                  className="bg-green-500 hover:bg-green-600 px-3 py-2 mr-2 text-xs text-white rounded"
                   onClick={handleClick}
                   value="preterito-imperfeito"
                 >
                   Pretérito Imperfeito
                 </button>
                 <button
-                  className="bg-green-500 hover:bg-green-600 px-3 py-2 mr-2 text-sm text-white rounded"
+                  className="bg-green-500 hover:bg-green-600 px-3 py-2 mr-2 text-xs text-white rounded"
                   onClick={handleClick}
                   value="futuro-do-presente"
                 >
                   Futuro do Presente
+                </button>
+                <button
+                  className="bg-green-500 hover:bg-green-600 px-3 py-2 mr-2 text-xs text-white rounded"
+                  onClick={handleClick}
+                  value="preterito-mais-que-perfeito"
+                >
+                  Pretérito Mais-Que-Perfeito
+                </button>
+                <button
+                  className="bg-green-500 hover:bg-green-600 px-3 py-2 mr-2 text-xs text-white rounded"
+                  onClick={handleClick}
+                  value="presente-progressivo"
+                >
+                  Presente Progressivo
+                </button>
+                <button
+                  className="bg-green-500 hover:bg-green-600 px-3 py-2 mr-2 text-xs text-white rounded"
+                  onClick={handleClick}
+                  value="futuro-do-preterito"
+                >
+                  Futuro do Pretérito
                 </button>
               </div>
             </div>

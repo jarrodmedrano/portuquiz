@@ -96,6 +96,34 @@ function App() {
         );
         setQuizQuestions(irregQuestions);
         break;
+      case "preterito-mais-que-perfeito":
+        console.log(value);
+        const fpDQuestions = questionz.filter(
+          (q) => q.tense === "preterito-mais-que-perfeito"
+        );
+        setQuizQuestions(fpDQuestions);
+        break;
+      case "futuro-do-imperfeito":
+        console.log(value);
+        const fpIQuestions = questionz.filter(
+          (q) => q.tense === "futuro-do-imperfeito"
+        );
+        setQuizQuestions(fpIQuestions);
+        break;
+      case "presente-progressivo":
+        console.log(value);
+        const ppPQuestions = questionz.filter(
+          (q) => q.tense === "presente-progressivo"
+        );
+        setQuizQuestions(ppPQuestions);
+        break;
+      case "futuro-do-preterito":
+        console.log(value);
+        const fpPQuestions = questionz.filter(
+          (q) => q.tense === "futuro-do-preterito"
+        );
+        setQuizQuestions(fpPQuestions);
+        break;
       default:
         console.log(value);
         setQuizQuestions(questionz);
