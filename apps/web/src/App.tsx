@@ -19,19 +19,27 @@ function App() {
   const [quizQuestions, setQuizQuestions] = useState<Question[]>(questionz);
   const [isLoading, setIsLoading] = useState(false);
 
+  const handleShuffle = () => {
+    setIsLoading(true);
+    const shuffled = [...questionz];
+    for (let i = questionz.length - 1; i > 0; i--) {
+      let j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    setQuizQuestions(shuffled);
+    setIsLoading(false);
+  };
+
   const handleNavClick = (event: React.MouseEvent<HTMLButtonElement>) => {
     const value = (event.target as HTMLInputElement).value;
     setIsLoading(true);
 
     switch (value) {
+      case undefined:
+        handleShuffle();
+        break;
       case "shuffle":
-        console.log(value);
-        let shuffled = [...questionz];
-        for (let i = questionz.length - 1; i > 0; i--) {
-          let j = Math.floor(Math.random() * (i + 1));
-          [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-        }
-        setQuizQuestions(shuffled);
+        handleShuffle();
         break;
       case "ar":
         console.log(value);
