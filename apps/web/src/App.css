@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+button:disabled {
+  @apply bg-white;
+  @apply border-b-gray-400;
+  @apply border;
+  @apply text-gray-400;
+}
+
+button:disabled:hover {
+  @apply bg-white;
+}

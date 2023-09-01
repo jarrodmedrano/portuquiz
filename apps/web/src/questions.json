@@ -1,0 +1,264 @@
+{
+  "questions": [
+    {
+      "tense": "presente",
+      "regularity": "regular",
+      "verbType": "er",
+      "text": "Eu ______ café todas as manhãs.",
+      "translation": "I drink coffee every morning.",
+      "answers": [
+        { "id": "a1", "text": "bebo", "isCorrect": true },
+        { "id": "a2", "text": "bebe", "isCorrect": false },
+        { "id": "a3", "text": "bebemos", "isCorrect": false },
+        { "id": "a4", "text": "bebem", "isCorrect": false }
+      ]
+    },
+    {
+      "tense": "preterito-perfeito",
+      "regularity": "irregular",
+      "verbType": "ar",
+      "text": "Eles ______ ontem.",
+      "translation": "They played yesterday.",
+      "answers": [
+        { "id": "a1", "text": "jogaram", "isCorrect": true },
+        { "id": "a2", "text": "jogavam", "isCorrect": false },
+        { "id": "a3", "text": "jogarão", "isCorrect": false },
+        { "id": "a4", "text": "joguem", "isCorrect": false }
+      ]
+    },
+    {
+      "tense": "futuro-do-presente",
+      "regularity": "regular",
+      "verbType": "ir",
+      "text": "Você ______ no jogo?",
+      "translation": "Will you participate in the game?",
+      "answers": [
+        { "id": "a1", "text": "participará", "isCorrect": true },
+        { "id": "a2", "text": "participa", "isCorrect": false },
+        { "id": "a3", "text": "participava", "isCorrect": false },
+        { "id": "a4", "text": "participou", "isCorrect": false }
+      ]
+    },
+    {
+      "tense": "preterito-imperfeito",
+      "regularity": "regular",
+      "verbType": "ar",
+      "text": "Nós ______ quando éramos crianças.",
+      "translation": "We played when we were children.",
+      "answers": [
+        { "id": "a1", "text": "jogávamos", "isCorrect": true },
+        { "id": "a2", "text": "jogamos", "isCorrect": false },
+        { "id": "a3", "text": "jogaríamos", "isCorrect": false },
+        { "id": "a4", "text": "jogaremos", "isCorrect": false }
+      ]
+    },
+    {
+      "tense": "presente",
+      "regularity": "irregular",
+      "verbType": "er",
+      "text": "Ela ______ bem.",
+      "translation": "She reads well.",
+      "answers": [
+        { "id": "a1", "text": "lê", "isCorrect": true },
+        { "id": "a2", "text": "leu", "isCorrect": false },
+        { "id": "a3", "text": "lerá", "isCorrect": false },
+        { "id": "a4", "text": "lia", "isCorrect": false }
+      ]
+    },
+    {
+      "tense": "preterito-mais-que-perfeito",
+      "regularity": "regular",
+      "verbType": "ar",
+      "text": "Nós já ______ a prova.",
+      "translation": "We had already taken the exam.",
+      "answers": [
+        { "id": "a1", "text": "fizéramos", "isCorrect": true },
+        { "id": "a2", "text": "fazemos", "isCorrect": false },
+        { "id": "a3", "text": "faremos", "isCorrect": false },
+        { "id": "a4", "text": "fazíamos", "isCorrect": false }
+      ]
+    },
+    {
+      "tense": "presente",
+      "regularity": "regular",
+      "verbType": "er",
+      "text": "Eles ______ a verdade.",
+      "translation": "They know the truth.",
+      "answers": [
+        { "id": "a1", "text": "sabem", "isCorrect": true },
+        { "id": "a2", "text": "saberão", "isCorrect": false },
+        { "id": "a3", "text": "sabiam", "isCorrect": false },
+        { "id": "a4", "text": "souberam", "isCorrect": false }
+      ]
+    },
+    {
+      "tense": "futuro-do-presente",
+      "regularity": "irregular",
+      "verbType": "ir",
+      "text": "Ele ______ de avião.",
+      "translation": "He will come by plane.",
+      "answers": [
+        { "id": "a1", "text": "virá", "isCorrect": true },
+        { "id": "a2", "text": "vem", "isCorrect": false },
+        { "id": "a3", "text": "veio", "isCorrect": false },
+        { "id": "a4", "text": "vinha", "isCorrect": false }
+      ]
+    },
+    {
+      "tense": "preterito-perfeito",
+      "regularity": "regular",
+      "verbType": "ar",
+      "text": "Você _______ a lição?",
+      "translation": "Did you complete the lesson?",
+      "answers": [
+        { "id": "a1", "text": "completou", "isCorrect": true },
+        { "id": "a2", "text": "completa", "isCorrect": false },
+        { "id": "a3", "text": "completava", "isCorrect": false },
+        { "id": "a4", "text": "completará", "isCorrect": false }
+      ]
+    },
+    {
+      "tense": "preterito-imperfeito",
+      "regularity": "regular",
+      "verbType": "er",
+      "text": "Eu não ______ o que fazer.",
+      "translation": "I did not know what to do.",
+      "answers": [
+        { "id": "a1", "text": "sabia", "isCorrect": true },
+        { "id": "a2", "text": "sei", "isCorrect": false },
+        { "id": "a3", "text": "saberei", "isCorrect": false },
+        { "id": "a4", "text": "soube", "isCorrect": false }
+      ]
+    },
+    {
+      "tense": "presente",
+      "regularity": "regular",
+      "verbType": "ir",
+      "text": "Nós ______ a verdade.",
+      "translation": "We open the door.",
+      "answers": [
+        { "id": "a1", "text": "abrimos", "isCorrect": true },
+        { "id": "a2", "text": "abrirá", "isCorrect": false },
+        { "id": "a3", "text": "abria", "isCorrect": false },
+        { "id": "a4", "text": "abriu", "isCorrect": false }
+      ]
+    },
+    {
+      "tense": "futuro-do-presente",
+      "regularity": "regular",
+      "verbType": "er",
+      "text": "Ela ______ o livro.",
+      "translation": "She will read the book.",
+      "answers": [
+        { "id": "a1", "text": "lerá", "isCorrect": true },
+        { "id": "a2", "text": "lê", "isCorrect": false },
+        { "id": "a3", "text": "lia", "isCorrect": false },
+        { "id": "a4", "text": "leu", "isCorrect": false }
+      ]
+    },
+    {
+      "tense": "preterito-perfeito",
+      "regularity": "irregular",
+      "verbType": "er",
+      "text": "Nós ______ a resposta.",
+      "translation": "We had the answer.",
+      "answers": [
+        { "id": "a1", "text": "tivemos", "isCorrect": true },
+        { "id": "a2", "text": "temos", "isCorrect": false },
+        { "id": "a3", "text": "teremos", "isCorrect": false },
+        { "id": "a4", "text": "tínhamos", "isCorrect": false }
+      ]
+    },
+    {
+      "tense": "preterito-imperfeito",
+      "regularity": "regular",
+      "verbType": "ar",
+      "text": "Ela _______ bem.",
+      "translation": "She used to sing well.",
+      "answers": [
+        { "id": "a1", "text": "cantava", "isCorrect": true },
+        { "id": "a2", "text": "canta", "isCorrect": false },
+        { "id": "a3", "text": "cantará", "isCorrect": false },
+        { "id": "a4", "text": "cantou", "isCorrect": false }
+      ]
+    },
+    {
+      "tense": "presente",
+      "regularity": "irregular",
+      "verbType": "ir",
+      "text": "Eles ______ para a escola.",
+      "translation": "They go to school.",
+      "answers": [
+        { "id": "a1", "text": "vão", "isCorrect": true },
+        { "id": "a2", "text": "vem", "isCorrect": false },
+        { "id": "a3", "text": "virão", "isCorrect": false },
+        { "id": "a4", "text": "vieram", "isCorrect": false }
+      ]
+    },
+    {
+      "tense": "futuro-do-presente",
+      "regularity": "regular",
+      "verbType": "ar",
+      "text": "Você ______ o carro?",
+      "translation": "Will you wash the car?",
+      "answers": [
+        { "id": "a1", "text": "lavará", "isCorrect": true },
+        { "id": "a2", "text": "lava", "isCorrect": false },
+        { "id": "a3", "text": "lavava", "isCorrect": false },
+        { "id": "a4", "text": "lavou", "isCorrect": false }
+      ]
+    },
+    {
+      "tense": "preterito-perfeito",
+      "regularity": "regular",
+      "verbType": "ir",
+      "text": "Nós ________ a cidade.",
+      "translation": "We visited the city.",
+      "answers": [
+        { "id": "a1", "text": "visitamos", "isCorrect": true },
+        { "id": "a2", "text": "visitávamos", "isCorrect": false },
+        { "id": "a3", "text": "visitaremos", "isCorrect": false },
+        { "id": "a4", "text": "visitaríamos", "isCorrect": false }
+      ]
+    },
+    {
+      "tense": "preterito-imperfeito",
+      "regularity": "irregular",
+      "verbType": "er",
+      "text": "Eu _______ sempre àquela loja.",
+      "translation": "I used to go to that store.",
+      "answers": [
+        { "id": "a1", "text": "ia", "isCorrect": true },
+        { "id": "a2", "text": "vou", "isCorrect": false },
+        { "id": "a3", "text": "irei", "isCorrect": false },
+        { "id": "a4", "text": "fui", "isCorrect": false }
+      ]
+    },
+    {
+      "tense": "presente",
+      "regularity": "regular",
+      "verbType": "er",
+      "text": "Eles ________ música.",
+      "translation": "They hear music.",
+      "answers": [
+        { "id": "a1", "text": "ouvem", "isCorrect": true },
+        { "id": "a2", "text": "ouviu", "isCorrect": false },
+        { "id": "a3", "text": "ouvirão", "isCorrect": false },
+        { "id": "a4", "text": "ouviam", "isCorrect": false }
+      ]
+    },
+    {
+      "tense": "futuro-do-presente",
+      "regularity": "irregular",
+      "verbType": "ar",
+      "text": "Eu ______ você amanhã.",
+      "translation": "I will call you tomorrow.",
+      "answers": [
+        { "id": "a1", "text": "ligarei", "isCorrect": true },
+        { "id": "a2", "text": "ligo", "isCorrect": false },
+        { "id": "a3", "text": "ligava", "isCorrect": false },
+        { "id": "a4", "text": "liguei", "isCorrect": false }
+      ]
+    }
+  ]
+}
